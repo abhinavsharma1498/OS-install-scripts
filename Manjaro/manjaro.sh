@@ -23,3 +23,7 @@ sudo pacman -S telegram-desktop discord --noconfirm
 
 #   Feature for SSD
 sudo systemctl enable fstrim.timer
+
+#   Cleaning cache
+yay -Sc
+yay -c
