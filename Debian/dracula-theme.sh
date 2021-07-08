@@ -61,7 +61,8 @@ mkdir -p ~/.config/libreoffice/*/user/config/
 wget https://raw.githubusercontent.com/dracula/libreoffice/master/dracula.soc -O ~/.config/libreoffice/*/user/config/dracula.soc
 
 echo "Installing Dracula theeme for telegram"
-wget https://raw.githubusercontent.com/dracula/telegram/colors.tdesktop-theme -O ~/Downloads/colors.tdesktop-theme
+git clone https://github.com/dracula/telegram.git /tmp/telegram
+mv /tmp/telegram/colors.tdesktop-theme ~/Downloads/colors.tdesktop-theme
 echo "Now:
 1. Open telegram > Settings > Chat settings
 2. Select choose from file under Background section
